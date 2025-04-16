@@ -23,7 +23,7 @@ int	ft_firstletter(int i, char *str)
 	}
 	else
 	{
-		if(!(str[i - 1] >= 'a' && str[i - 1] <= 'z' ||
+		if(!((str[i - 1] >= 'a' && str[i - 1] <= 'z') ||
 		(str[i - 1] >= '0' && str[i - 1] <= '9') ||
 		(str[i - 1] >= 'A' && str[i - 1] <= 'Z')))
 		{
